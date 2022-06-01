@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center align-items-center p-5">
+        <div class="col-md-8">
+          <div class="loginCard p-5">
+            <h1>Smart Login System</h1>
+            <input
+              class="form-control my-3"
+              id="signUpName"
+              type="text"
+              placeholder="Enter your Name"
+            />
+            <input
+              class="form-control my-3"
+              id="signUpEmail"
+              type="text"
+              placeholder="Enter your email"
+            />
+            <input
+              class="form-control my-3"
+              id="signUpPassword"
+              type="password"
+              placeholder="Enter your password"
+            />
+            <p class="text-danger text-start d-none" id="signUpError">
+              All inputs is required
+            </p>
+            <p class="text-danger text-start d-none" id="signUpEmailexist">
+              This email already exists
+            </p>
+            <button
+              type="button"
+              class="btn btn-outline-info w-100 my-3"
+              onclick="signUP()"
+            >
+              Sign Up
+            </button>
+            <p class="text-white">
+              Already have an account?
+              <a class="text-white" href="index.html">Log In</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

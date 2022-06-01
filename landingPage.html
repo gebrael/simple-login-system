@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bar">
+      <div class="container">
+        <a class="navbar-brand" href="#">SMART LOGIN</a>
+        <button type="button" class="btn btn-outline-danger" onclick="logOut()">
+          Logout
+        </button>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row justify-content-center align-items-center p-5">
+        <div class="col-md-8">
+          <div class="loginCard p-5">
+            <h2 id="msg" class="text-white"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

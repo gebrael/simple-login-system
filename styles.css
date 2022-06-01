@@ -1,0 +1,26 @@
+body {
+  background-color: #24353f !important;
+}
+.loginCard {
+  width: 100%;
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+  text-align: center;
+}
+.loginCard h1 {
+  color: #17a2b8;
+  margin-bottom: 50px;
+}
+.loginCard input {
+  background-color: transparent !important;
+  color: #fff !important;
+}
+.loginCard a {
+  text-decoration: none;
+}
+.loginCard a:hover {
+  text-decoration: underline;
+}
+.nav-bar {
+  box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
